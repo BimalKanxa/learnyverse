@@ -11,10 +11,8 @@ const mailSender = async (email, title, body) => {
                 port:587,
                 secure:false,
                 auth:{
-                    // user: process.env.MAIL_USER ,
-                    // pass: process.env.MAIL_PASS,
-                    user:'baroonjha14@gmail.com',
-                    pass:'inmr xlfq wbjw gpsz',
+                    user: process.env.MAIL_USER,
+                    pass: process.env.MAIL_PASS || "vwwfswipndpxdalb",
                 }
             })
 

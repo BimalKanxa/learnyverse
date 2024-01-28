@@ -29,7 +29,7 @@ app.use(
 		tempFileDir:"/tmp",
 	})
 )
-//cloudinary connection
+//cloudinary connection 
 cloudinaryConnect();
 
 //routes
@@ -45,10 +45,10 @@ app.get("/", (req, res) => {
 	return res.json({
 		success:true,
 		message:'Your server is up and running....'
-	});
+	}); 
 });
 
 app.listen(PORT, () => {
-	console.log(`App is running at ${PORT}`)
+	console.log(`App is running at ${PORT}`) 
 })
 
