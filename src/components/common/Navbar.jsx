@@ -5,7 +5,8 @@ import { useSelector } from "react-redux"
 import { Link, matchPath, useLocation } from "react-router-dom"
 import useOnClickOutside from "../../hooks/useOnClickOutside"
 
-import logo from "../../assets/Logo/Logo-Full-Light.png"
+// import logo from "../../assets/Logo/Logo-Full-Light.png"
+import logo from "../../assets/Logo/logo12.png"
 import { NavbarLinks } from "../../data/navbar-links"
 import { apiConnector } from "../../services/apiconnector"
 import { categories } from "../../services/apis"
@@ -49,11 +50,13 @@ function Navbar() {
       className={`flex h-14 items-center justify-center border-b-[1px] border-b-richblack-700 ${
         location.pathname !== "/" ? "bg-richblack-800" : ""
       } transition-all duration-200`}
-    >
+    style={{backgroundColor:"rgb(69,10,10)"}}>
       <div className="flex w-[96%] md:w-11/12 max-w-maxContent items-center justify-between">
         {/* Logo */}
         <Link to="/">
-          <img src={logo} alt="Logo" width={120} height={32} loading="lazy" className="rounded-xl p-2 border-2 border-white " />
+          {/* <img src={logo} alt="Logo" width={50} height={32} loading="lazy" className="rounded-xl p-2 border-2 border-white " /> */}
+          <img src={logo} alt="Logo" width={170} height={45} loading="lazy" className="rounded-xl p-2" />
+       
         </Link>
         {/* Navigation links */}
 
@@ -133,14 +136,14 @@ function Navbar() {
           )}
           {token === null && (
             <Link to="/login">
-              <button className="hidden md:block rounded-[8px] border border-richblack-700 bg-richblack-800 px-[12px] py-[8px] text-richblack-100">
+              <button className="hidden md:block rounded-[8px] border border-richblack-700 bg-green-500 px-[12px] py-[8px] text-richblack-100 font-bold">
                 Log in
               </button>
             </Link>
           )}
           {token === null && (
             <Link to="/signup">
-              <button className="hidden md:block rounded-[8px] border border-richblack-700 bg-richblack-800 px-[12px] py-[8px] text-richblack-100">
+              <button className="hidden md:block rounded-[8px] border border-richblack-700 bg-green-500 px-[12px] py-[8px] text-richblack-100 font-bold">
                 Sign up
               </button>
             </Link>
