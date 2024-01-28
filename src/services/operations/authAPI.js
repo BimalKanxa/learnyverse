@@ -31,11 +31,13 @@ export function sendOtp(email, navigate) {
         throw new Error(response.data.message)
       }
 
-      toast.success("OTP Sent Successfully")
+      toast.success("OTP Sent Successfully")  
       navigate("/verify-email")
     } catch (error) {
       console.log("SENDOTP API ERROR............", error)
       toast.error("Could Not Send OTP")
+      console.log("SENDOTP_API:", SENDOTP_API);
+
     }
     dispatch(setLoading(false))
     toast.dismiss(toastId)
@@ -70,11 +72,11 @@ export function signUp(
 
       if (!response.data.success) {
         throw new Error(response.data.message)
-      }
+      } 
       toast.success("Signup Successful")
       navigate("/login")
     } catch (error) {
-      console.log("SIGNUP API ERROR............", error)
+      console.log("SIGNUP API ERROR............", error)   
       toast.error("Signup Failed")
       navigate("/signup")
     }
