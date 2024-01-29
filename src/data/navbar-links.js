@@ -8,7 +8,7 @@ export const NavbarLinks = [
     path: "/community",
   },
   {
-    title: "Courses",
+    title: "Catalog",
     // path: '/catalog',
   },
   {

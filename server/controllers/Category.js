@@ -48,7 +48,7 @@ exports.showAllCategories = async (req, res) => {
 //categoryPageDetails 
 
 exports.categoryPageDetails = async (req, res) => {
-    try {
+    try { 
       const { categoryId } = req.body
       console.log("PRINTING CATEGORY ID: ", categoryId);
       // Get courses for the specified category
@@ -117,7 +117,7 @@ exports.categoryPageDetails = async (req, res) => {
     } catch (error) {
       return res.status(500).json({
         success: false,
-        message: "Internal server error",
+        message: "Category.js Internal server error",
         error: error.message,
       })
     }

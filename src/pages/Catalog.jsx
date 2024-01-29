@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import Footer from '../components/common/Footer'
 import { useParams } from 'react-router-dom'
 import { apiConnector } from '../services/apiconnector';
@@ -24,6 +24,7 @@ const Catalog = () => {
             const category_id = 
             res?.data?.data?.filter((ct) => ct.name.split(" ").join("-").toLowerCase() === catalogName)[0]._id;
             setCategoryId(category_id);
+            console.log("the category id from here is ", category_id)
         }
         getCategories();
     },[catalogName]);
@@ -33,10 +34,11 @@ const Catalog = () => {
             try{
                 const res = await getCatalogaPageData(categoryId);
                 console.log("PRinting res: ", res);
+
                 setCatalogPageData(res);
             }
             catch(error) {
-                console.log(error)
+                console.log("error from Catalog.jsx", error)
             }
         }
         if(categoryId) {

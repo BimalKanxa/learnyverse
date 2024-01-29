@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 // Define the Tags schema
 const categorySchema = new mongoose.Schema({
-	name: {
+	name: { 
 		type: String,
 		required: true,
 	},
