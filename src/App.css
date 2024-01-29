@@ -61,9 +61,9 @@ details > summary::-webkit-details-marker {
   top: calc(50% - 257.05px / 2 - 47.47px);
   background: linear-gradient(
     123.77deg,
-    #8a2be2 -6.46%,
-    #ffa500 59.04%,
-    #f8f8ff 124.53%
+    #260149 -6.46%,
+    #2bff00 59.04%,
+    #0000ff 124.53%
   );
   opacity: 0.2;
   filter: blur(34px);

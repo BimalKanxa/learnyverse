@@ -36,7 +36,7 @@ function Home() {
         </Link>
 
         {/* Heading */}
-        <div data-aos="fade-right" className="text-center text-4xl font-semibold">
+        <div data-aos="fade-right" className="text-center text-4xl font-semibold text-richblack-400">
           Empower Your Future with
           <HighlightText text={"Coding Skills"} />
         </div>
@@ -83,7 +83,7 @@ function Home() {
           <CodeBlocks
             position={"lg:flex-row"}
             heading={
-              <div data-aos="fade-right" className="text-4xl font-semibold">
+              <div data-aos="fade-right" className="text-4xl font-semibold text-richblack-400">
                 Unlock your
                 <HighlightText text={"coding potential"} /> with our online
                 courses.
@@ -102,7 +102,7 @@ function Home() {
               link: "/signup",
               active: false,
             }}
-            codeColor={"text-yellow-25"}
+            codeColor={"text-[#ff7b22]"}
             codeblock={`<!DOCTYPE html>\n <html lang="en">\n<head>\n<title>This is myPage</title>\n</head>\n<body>\n<h1><a href="/">Header</a></h1>\n<nav> <a href="/one">One</a> <a href="/two">Two</a> <a href="/three">Three</a>\n</nav>\n</body>`}
             backgroundGradient={<div className="codeblock1 absolute"></div>}
           />
@@ -113,7 +113,7 @@ function Home() {
           <CodeBlocks
             position={"lg:flex-row-reverse"}
             heading={
-              <div data-aos="fade-left" className="w-[100%] text-4xl font-semibold lg:w-[50%]">
+              <div data-aos="fade-left" className="w-[100%] text-4xl font-semibold lg:w-[50%] text-richblack-400">
                 Start
                 <HighlightText text={"coding in seconds"} />
               </div>

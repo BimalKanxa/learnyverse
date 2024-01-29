@@ -41,7 +41,7 @@ function Community() {
             <div class="relative w-full min-w-[200px] h-10 flex gap-4">
               <input
                 class="outline outline-1 rounded-xl px-4 outline-gray-100"
-                placeholder=" "
+                placeholder="search topics"
               />
               <button class="bg-[#777] hover:bg-[#888] text-white font-bold py-2 px-4 rounded flex items-center justify-center">
                 New
