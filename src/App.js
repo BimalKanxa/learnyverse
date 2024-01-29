@@ -29,6 +29,7 @@ import ViewCourse from "./pages/ViewCourse";
 import VideoDetails from "./components/core/ViewCourse/VideoDetails";
 import Instructor from "./components/core/Dashboard/InstructorDashboard/Instructor";
 import Scroll_To_Top_Button from "./utils/Scroll_To_Top_Button"
+import Community from "./pages/Community";
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
     <Navbar/>
     <Routes>
       <Route path="/" element={<Home/>} />
+      <Route path="/community" element={<Community/>} />
       <Route path="catalog/:catalogName" element={<Catalog/>} />
       <Route path="courses/:courseId" element={<CourseDetails/>} /> 
       
