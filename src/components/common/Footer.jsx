@@ -43,12 +43,12 @@ export const Footer = () => {
               <h4>Contact us</h4>
               <ul>
                 <li>
-                  <a href="mailto:horrorj18@gmail.com?body=fell free to type">
+                  <a href="mailto:baroonjha14@gmail.com?body=fell free to type">
                     Gmail
                   </a>
                 </li>
                 <li>
-                  <a href="tel:9999999999">Helpline No</a>
+                  <a href="tel:7002888752">Helpline No</a>
                 </li>
               </ul>
             </div>
@@ -73,9 +73,9 @@ export const Footer = () => {
           </div>
         </div>
         <div className=" flex flex-col sm:flex-row justify-center items-center gap-4 ">
-        <p className="text-white text-2xl my-2  ">© 2023</p>
+        <p className="text-white text-2xl my-2  ">© 2023 LearnyVerse All rights Reserved</p>
         <div className=" ">
-        <img  src={Logo} alt="" width={120} height={32} className="rounded-xl border-2 border-white p-2" />
+        {/* <img  src={} alt="" width={120} height={32} className="rounded-xl border-2 border-white p-2" /> */}
         </div>
       </div>
       

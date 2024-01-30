@@ -6,23 +6,24 @@ import * as Icon2 from "react-icons/io5"
 const contactDetails = [
   {
     icon: "HiChatBubbleLeftRight",
-    heading: "Chat on us",
-    description: "Our friendly team is here to help.",
-    details: "info@studynotion.com",
-  },
-  {
-    icon: "BiWorld",
-    heading: "Visit us",
-    description: "Come and say hello at our office HQ.",
-    details:
-      "Horror colony,Borivali Mumbai ",
+    heading: "Chat us",
+    description: "We are here to help you .Lets chat",
+    details: "info@learnyverse.com",
   },
   {
     icon: "IoCall",
     heading: "Call us",
     description: "Mon - Fri From 9am to 6pm",
-    details: "+91 9823130670",
+    details: "+91 7002888752",
   },
+  {
+    icon: "BiWorld",
+    heading: "Address",
+    description: "Learnyverse",
+    details:
+      "Guwahati ,India",
+  },
+  
 ]
 
 const ContactDetails = () => {
