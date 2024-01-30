@@ -30,6 +30,7 @@ import VideoDetails from "./components/core/ViewCourse/VideoDetails";
 import Instructor from "./components/core/Dashboard/InstructorDashboard/Instructor";
 import ScrollToTopButton from "./utils/Scroll_To_Top_Button"
 import Community from "./pages/Community";
+import Gpt from "./pages/Gpt"
 
 function App() {
 
@@ -47,6 +48,7 @@ function App() {
       <Route path="/community" element={<Community/>} />
       <Route path="catalog/:catalogName" element={<Catalog/>} />
       <Route path="courses/:courseId" element={<CourseDetails/>} /> 
+      <Route path="/gpt" element={<Gpt/>} /> 
       
       <Route
           path="signup"
