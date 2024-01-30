@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import React, { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Banner from "../assets/Images/banner1.mp4"
+// import Banner from "../assets/Images/banner1.mp4"
 import Footer from "../components/common/Footer"
 import ReviewSlider from "../components/common/ReviewSlider"
 import CTAButton from "../components/core/HomePage/Button"
@@ -29,7 +29,7 @@ function Home() {
         
 
         {/* Heading */}
-        <div data-aos="fade-right" className="text-center text-4xl font-semibold text-richblack-400">
+        <div data-aos="fade-right" className="mt-10 text-center text-4xl font-semibold text-richblack-400">
           Empower Your Future with
           <HighlightText text={"Coding Skills"} />
         </div>
@@ -61,17 +61,18 @@ function Home() {
         </div>
 
         {/* Video */}
-        {/* <div data-aos="flip-right"className="mx-3 my-7 shadow-[10px_-5px_50px_-5px] shadow-blue-200">
-          <video
+        <div data-aos="flip-right"className="mx-3 my-7 shadow-[10px_-5px_50px_-5px] shadow-blue-100">
+          {/* <video
             muted
             loop
             autoPlay
           >
-            {/* <source src={Banner} type="video/mp4" /> */}
+             <source src={Banner} type="video/mp4" />
             
             
-          </video>
-        </div> */}
+          </video>  */}
+          <img src="/codewithme.gif" alt="banner gifzz" />
+        </div> 
 
         {/* Code Section 1  */}
         <div>
