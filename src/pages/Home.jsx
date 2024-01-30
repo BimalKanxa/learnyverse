@@ -54,9 +54,9 @@ function Home() {
           <CTAButton active={true} linkto={"/signup"}>
             Learn More
           </CTAButton>
-          <CTAButton active={false} linkto={"/login"}>
+          {/* <CTAButton active={false} linkto={"/login"}>
             Book a Demo
-          </CTAButton>
+          </CTAButton> */}
         </div>
         <div className=" flex  flex-row gap-7 lg:hidden xl:hidden md:hidden ">
           <CTAButton active={true} linkto={"/signup"}>
@@ -74,7 +74,9 @@ function Home() {
             loop
             autoPlay
           >
-            <source src={Banner} type="video/mp4" />
+            {/* <source src={Banner} type="video/mp4" /> */}
+            
+            
           </video>
         </div>
 

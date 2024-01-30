@@ -19,4 +19,12 @@ export const NavbarLinks = [
     title: "Contact Us",
     path: "/contact",
   },
+  {
+    title: "Quizzes",
+    path: "/assessment-quiz",
+  },
+  {
+    title: "Pre-Placement Mocks",
+    path: "/mentorship/preplacement",
+  },
 ];

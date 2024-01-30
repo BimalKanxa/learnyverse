@@ -1,10 +1,10 @@
-# StudyNotion
+# learnyverse
 ## Live 
 https://study-notion-frontend-wheat.vercel.app/ \
 otp mail will be in your spam section
 ## Installation
 
-1. Clone the repository: `https://github.com/Horror26/StudyNotion.git`
+1. Clone the repository: `https://github.com/BimalKanxa/learnyverse.git`
 2. Navigate to the project directory: `cd `
 3. Install dependencies: `npm install`
 
@@ -25,7 +25,7 @@ Contributions are welcome! If you have any suggestions or find any issues, pleas
 
 ## System Architecture
 
-The Study Notion EdTech platform consists of three main components: the front-end, the back-end, and the database. The platform follows a client-server architecture, with the front-end serving as the client and the back-end and database serving as the server.
+The  EdTech platform consists of three main components: the front-end, the back-end, and the database. The platform follows a client-server architecture, with the front-end serving as the client and the back-end and database serving as the server.
 
 ### Front-end
 
@@ -63,12 +63,12 @@ The back-end of the platform is built using NodeJS and ExpressJS, providing APIs
 - **User Authentication and Authorization:** Students and instructors can sign up and log in to the platform using their email addresses and passwords. The platform also supports OTP (One-Time Password) verification and forgot password functionality for added security.
 - **Course Management:** Instructors can create, read, update, and delete courses, as well as manage course content and media. Students can view and rate courses.
 - **Payment Integration:** Students will purchase and enroll in courses by completing the checkout flow, followed by Razorpay integration for payment handling.
-- **Cloud-based Media Management:** StudyNotion uses Cloudinary, a cloud-based media management service, to store and manage all media content, including images, videos, and documents.
+- **Cloud-based Media Management:** learnyverse uses Cloudinary, a cloud-based media management service, to store and manage all media content, including images, videos, and documents.
 - **Markdown Formatting:** Course content in document format is stored in Markdown format, allowing for easier display and rendering on the front-end.
 
 #### Back-end Frameworks, Libraries, and Tools
 
-The back-end of StudyNotion uses various frameworks, libraries, and tools to ensure its functionality and performance, including:
+The back-end of learnyverse uses various frameworks, libraries, and tools to ensure its functionality and performance, including:
 
 - **Node.js:** Used as the primary framework for the back-end.
 - **Express.js:** Used as a web application framework, providing a range of features and tools for building web applications.
@@ -79,7 +79,7 @@ The back-end of StudyNotion uses various frameworks, libraries, and tools to ens
 
 #### Data Models and Database Schema
 
-The back-end of StudyNotion uses several data models and database schemas to manage data, including:
+The back-end of  uses several data models and database schemas to manage data, including:
 
 - **Student Schema:** Includes fields such as name, email, password, and course details for each student.
 - **Instructor Schema:** Includes fields such as name, email, password, and course details for each instructor.
@@ -93,6 +93,6 @@ The database for the platform is built using MongoDB, a NoSQL database that prov
 
 ### Architecture Diagram
 
-Below is a high-level diagram that illustrates the architecture of the StudyNotion EdTech platform:
+Below is a high-level diagram that illustrates the architecture of the  EdTech platform:
 
 ![Architecture](img/arcti.png)
