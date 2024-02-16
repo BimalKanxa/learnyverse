@@ -1,7 +1,5 @@
 # learnyverse
-## Live 
-https://study-notion-frontend-wheat.vercel.app/ \
-otp mail will be in your spam section
+
 ## Installation
 
 1. Clone the repository: `https://github.com/BimalKanxa/learnyverse.git`
