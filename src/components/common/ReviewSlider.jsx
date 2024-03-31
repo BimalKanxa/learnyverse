@@ -36,11 +36,11 @@ function ReviewSlider() {
   // console.log(reviews)
 
   return (
-    <div className="text-white">
+    <div className="text-white w-full">
       <div className="my-[50px] h-auto max-w-maxContentTab lg:max-w-maxContent">
         <Swiper
           slidesPerView={4}
-          spaceBetween={25}
+          spaceBetween={24}
           loop={true}
           freeMode={true}
           autoplay={{
